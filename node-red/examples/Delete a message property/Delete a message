@@ -1,0 +1,7 @@
+delete a message property.
+Use the Change node to delete the property.
+The "Change" node can be used to delete properties of a message.
+
+[{"id":"91cd2fa9.e0a96","type":"inject","z":"535331d8.55c1f","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":140,"y":180,"wires":[["54ec03e4.5714bc"]]},
+{"id":"54ec03e4.5714bc","type":"change","z":"535331d8.55c1f","name":"","rules":[{"t":"delete","p":"payload","pt":"msg"}],"action":"","property":"","from":"","to":"","reg":false,"x":350,"y":180,"wires":[["321900de.3cbea"]]},
+{"id":"321900de.3cbea","type":"debug","z":"535331d8.55c1f","name":"","active":true,"console":"false","complete":"false","x":550,"y":180,"wires":[]}]

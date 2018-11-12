@@ -1,0 +1,15 @@
+This tutorial will show how to include OpenWeatherMap on Node-red
+
+  The dashboard will show weather and humidity from openweathermap.org 
+  Using local mqtt to publish and subcribe data. 
+  
+Have the node-red installed on your device.
+1. run node-red
+2. install palette for dashboard and Openweathermap 
+3. go to openweathermap.org and register to get weather API
+
+
+On Node-red, set openweathermap with the API you got. For accuracy, use location as coordinates (go to that openweathermap.org
+and search for your location, the take the coordinates from there and paste in node) 
+
+Then connect everything as normal or you can see the connection in picture from the "install OpenWeatherMap" folder. 
